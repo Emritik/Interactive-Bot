@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interactive-bot.html</title>
     <style>
         * {
             background-color: white;
@@ -44,17 +44,24 @@
             font-size: 32px;
             color: rgba(207, 40, 40, 0.834);
         }
+        a {
+        text-decoration: none;
+        color: green;
+        font-size: 24px;
+	    float: right;
+        }
     </style>
     
 </head>
-<body>
+<body onload="alert('Welcome for interaction.');">
     <p class="text">Please click on the text for intract more</p>
     <p class="heading">Hello everyone i am your bot Saksham &#128515 </p>
-    <img src="/sad-image.webp" alt="sad-logo" class="img" id="img1" onclick="display()" />
+    <img src="sad-image.webp" alt="sad-logo" class="img" id="img1" />
     <p id="para" class="para" onclick="display()">Today, i am very sad!!</p>
     <p id="para1" class="para1"></p>
     <p id="yes" class="yes" onclick="interested();"></p>
     <p id="not" class="no" onclick="notinrested();"></p>
+    <a href="Interactive-bot.html">Go back to Home.</a>
 
 
     <script src="interactive-bot.js"></script>
